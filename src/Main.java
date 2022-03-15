@@ -1,15 +1,11 @@
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Professor p1;
+        Person Prof = new Person();
+        Prof.setProf_name(" Ensar Gül ");
 
-        p1 = new Professor(" Ensar Gül ");
-        p1.teaches();
-
-        Student s1;
-
-        s1 = new Student(" Berat Özçelebi ");
-        s1.learns();
+        Person Std = new Person();
+        Std.setStd_name(" Berat Özçelebi ");
     }
 }
